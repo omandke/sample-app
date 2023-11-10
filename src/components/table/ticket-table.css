@@ -1,0 +1,44 @@
+/* Style the table container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table header */
+.table thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Style table headers and cells */
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style odd rows with a light background color */
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Style the "Status" column based on its content */
+.table td:nth-child(1) {
+    text-align: left;
+}
+
+/* Style the "ID" column */
+.table td:nth-child(2) {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Style the "Group" column */
+.table td:nth-child(6) {
+    font-style: italic;
+    color: #888;
+}
